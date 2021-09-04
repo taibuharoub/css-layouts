@@ -1,0 +1,22 @@
+/* consider the body as the container  */
+body {
+  display: flex;
+}
+.box {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+/* target the wrapper container 
+.wrapper {
+  display: flex;
+}
+.box {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+*/
