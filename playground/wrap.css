@@ -1,0 +1,17 @@
+/* align-self and order  */
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
