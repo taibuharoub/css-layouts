@@ -1,0 +1,29 @@
+/* align-self and order  */
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+}
+.box {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+/* align-self */
+/* .box:nth-child(2) {
+  align-self: center;
+}
+.box:nth-child(3) {
+  align-self: flex-end;
+} */
+
+/* order */
+.box:nth-child(2) {
+  order: 1;
+  align-self: center;
+}
+/* by Default all boxes at order zero, 
+   in the above only box 2 will shift to oder 1
+   and the rest will stay at zero
+*/
