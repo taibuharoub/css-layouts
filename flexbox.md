@@ -20,3 +20,18 @@ Flex direction `coulmn` the main axis is vertical while the cross axis is horizo
 3. If you want to modify items on the main or cross axis depending on your flex direction you need to set a `height`
 4. `align-self` and `order` are some of the properties we can give to the childern.
 5. `align-self` works exactly like `align-items` on the cross axis expect it modifies one single element or item/child.
+
+
+Some properties   
+```
+ flex-direction
+ order
+ justify-content
+ align-items
+ align-self
+ flex-wrap
+ align-content
+ flex-grow
+ flex-shrink
+ flex-basis
+ ```
